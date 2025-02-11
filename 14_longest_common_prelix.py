@@ -1,3 +1,9 @@
+"""
+Time complexity: Beat 100%
+Memory complexity: Beat 44%
+2025/02/08
+"""
+
 def longestCommonPrefix(strs) -> str:
     if len(strs) == 0 or strs[0] == '':
         return ""
